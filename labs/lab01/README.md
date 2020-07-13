@@ -73,6 +73,8 @@
  
  ###  Файлы конфигураций:
  [R1_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/R1_config)
+ [S1_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/S1_config)
+ [S2_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/S2_config)
  
   
   
