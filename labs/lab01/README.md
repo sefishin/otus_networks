@@ -71,6 +71,8 @@
   
   ![](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/ping.png)
  
+ ###  Файлы конфигураций:
+ [R1_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/R1_config)
  
   
   
