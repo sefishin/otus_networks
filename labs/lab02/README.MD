@@ -30,7 +30,7 @@
 
 Стенд развернут и настроен в Cisco Packet Tracer в соответствии с заданной топологией. Файлы конфигураций приложены.
 
-![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/scheme01.png)
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/sc2.png)
 
 
 Успешно ли выполняется эхо-запрос от коммутатора S1 на коммутатор S2? \__Да_\_.
@@ -47,6 +47,8 @@
   * Настройте подключенные порты в качестве транковых.
   * Включите порты F0/2 и F0/4 на всех коммутаторах.
   * Отобразите данные протокола spanning-tree.
+  
+  ![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/scheme01.png)
   
         S1#show spanning-tree 
         VLAN0001
