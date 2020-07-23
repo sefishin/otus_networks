@@ -1,11 +1,8 @@
-![](RackMultipart20200723-4-idfbik_html_72193920676a741d.png)
-
 **Lab - Implement DHCPv4**
 
-1.
 # Topology
 
-![](RackMultipart20200723-4-idfbik_html_e4bbf7dc11596c91.png)
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/lab1.png)
 
 # Addressing Table
 
