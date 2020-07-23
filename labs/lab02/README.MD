@@ -30,7 +30,7 @@
 
 Стенд развернут и настроен в Cisco Packet Tracer в соответствии с заданной топологией. Файлы конфигураций приложены.
 
-![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/scheme1.png)
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/scheme01.png)
 
 
 Успешно ли выполняется эхо-запрос от коммутатора S1 на коммутатор S2? \_Да.
