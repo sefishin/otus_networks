@@ -147,80 +147,51 @@
 ---
 4. **Наблюдение за процессом выбора протоколом STP порта, исходя из приоритета портов**
 
-    1. Включите порты F0/1 и F0/3 на всех коммутаторах.
-    2. Подождите 30 секунд, чтобы протокол STP завершил процесс перевода порта, после чего выполните команду **show spanning-tree** на коммутаторах некорневого моста. Обратите внимание, что порт корневого моста переместился на порт с меньшим номером, связанный с коммутатором корневого моста, и заблокировал предыдущий порт корневого моста.
+  * Включите порты F0/1 и F0/3 на всех коммутаторах.
+  * Подождите 30 секунд, чтобы протокол STP завершил процесс перевода порта, после чего выполните команду **show spanning-tree** на коммутаторах некорневого моста. Обратите внимание, что порт корневого моста переместился на порт с меньшим номером, связанный с коммутатором корневого моста, и заблокировал предыдущий порт корневого моста.
 
-S1# **show spanning-tree**
+        S2#show spanning-tree
+        VLAN0001
+          Spanning tree enabled protocol ieee
+          Root ID    Priority    32769
+             Address     0005.5E75.E646
+             Cost        19
+             Port        1(FastEthernet0/1)
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-VLAN0001
+          Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+             Address     00D0.D3B6.08C6
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  20
 
-Spanning tree enabled protocol ieee
+        Interface        Role Sts Cost      Prio.Nbr Type
+        ---------------- ---- --- --------- -------- --------------------------------
+        Fa0/4            Altn BLK 19        128.4    P2p
+        Fa0/1            Root FWD 19        128.1    P2p
+        Fa0/2            Altn BLK 19        128.2    P2p
+        Fa0/3            Altn BLK 19        128.3    P2p
+        
+        S3#show span
+        VLAN0001
+          Spanning tree enabled protocol ieee
+          Root ID    Priority    32769
+             Address     0005.5E75.E646
+             Cost        19
+             Port        3(FastEthernet0/3)
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-Root ID Priority 32769
+          Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+             Address     0060.2FED.9DE7
+             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  20
 
-Address 0cd9.96d2.4000
-
-Cost 19
-
-Port 1 (FastEthernet0/1)
-
-Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
-
-Bridge ID Priority 32769 (priority 32768 sys-id-ext 1)
-
-Address 0cd9.96e8.8a00
-
-Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
-
-Aging Time 15 sec
-
-Interface Role Sts Cost Prio.Nbr Type
-
-------------------- ---- --- --------- -------- --------------------------------
-
-Fa0/1Root FWD 19 128.1 P2p
-
-Fa0/2Altn BLK 19 128.2 P2p
-
-Fa0/3 Altn BLK 19 128.3 P2p
-
-Fa0/4 Altn BLK 19 128.4 P2p
-
-S3# **show spanning-tree**
-
-VLAN0001
-
-Spanning tree enabled protocol ieee
-
-Root ID Priority 32769
-
-Address 0cd9.96d2.4000
-
-Cost 19
-
-Port 1 (FastEthernet0/1)
-
-Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
-
-Bridge ID Priority 32769 (priority 32768 sys-id-ext 1)
-
-Address 0cd9.96e8.7400
-
-Hello Time 2 sec Max Age 20 sec Forward Delay 15 sec
-
-Aging Time 15 sec
-
-Interface Role Sts Cost Prio.Nbr Type
-
-------------------- ---- --- --------- -------- --------------------------------
-
-Fa0/1Root FWD 19 128.1 P2p
-
-Fa0/2Altn BLK 19 128.2 P2p
-
-Fa0/3 Desg FWD 19 128.3 P2p
-
-Fa0/4 Desg FWD 19 128.4 P2p
+        Interface        Role Sts Cost      Prio.Nbr Type
+        ---------------- ---- --- --------- -------- --------------------------------
+        Fa0/1            Desg FWD 19        128.1    P2p
+        Fa0/2            Desg FWD 19        128.2    P2p
+        Fa0/3            Root FWD 19        128.3    P2p
+        Fa0/4            Altn BLK 19        128.4    P2p
+        
 
 Какой порт выбран протоколом STP в качестве порта корневого моста на каждом коммутаторе некорневого моста? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
