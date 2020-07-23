@@ -47,24 +47,23 @@
   3. Включите порты F0/2 и F0/4 на всех коммутаторах.
   4. Отобразите данные протокола spanning-tree.
 
-'''html
-S1#show spanning-tree 
-VLAN0001
-  Spanning tree enabled protocol ieee
-  Root ID    Priority    32769
-             Address     0005.5E75.E646
-             This bridge is the root
-             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+    S1#show spanning-tree 
+    VLAN0001
+      Spanning tree enabled protocol ieee
+      Root ID    Priority    32769
+                 Address     0005.5E75.E646
+                 This bridge is the root
+                 Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
 
-  Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
-             Address     0005.5E75.E646
-             Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
-             Aging Time  20
+      Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+                 Address     0005.5E75.E646
+                 Hello Time  2 sec  Max Age 20 sec  Forward Delay 15 sec
+                 Aging Time  20
 
-Interface        Role Sts Cost      Prio.Nbr Type
----------------- ---- --- --------- -------- --------------------------------
-Fa0/2            Desg FWD 19        128.2    P2p
-Fa0/4            Desg FWD 19        128.4    P2p'''
+        Interface        Role Sts Cost      Prio.Nbr Type
+    ---------------- ---- --- --------- -------- --------------------------------
+    Fa0/2            Desg FWD 19        128.2    P2p
+    Fa0/4            Desg FWD 19        128.4    P2p
 
 S2# **show spanning-tree**
 
