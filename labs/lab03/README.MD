@@ -22,26 +22,13 @@
 
 # VLAN Table
 
-|
-
-VLAN
-
- |
-
-Name
-
- |
-
-Interface Assigned
-
- |
-| --- | --- | --- |
-| 1 | N/A | S2: F0/18 |
-| --- | --- | --- |
-| 100 | Clients | S1: F0/6 |
-| 200 | Management | S1: VLAN 200 |
-| 999 | Parking\_Lot | S1: F0/1-4, F0/7-24, G0/1-2 |
-| 1000 | Native | N/A |
+| VLAN |     Name    |      Interface Assigned     |
+|:----:|:-----------:|:---------------------------:|
+| 1    | N/A         | S2: F0/18                   |
+| 100  | Clients     | S1: F0/6                    |
+| 200  | Management  | S1: VLAN 200                |
+| 999  | Parking_Lot | S1: F0/1-4, F0/7-24, G0/1-2 |
+| 1000 | Native      | N/A                         |
 
 # Objectives
 
