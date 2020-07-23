@@ -43,7 +43,7 @@
 
 ## 1.Build the Network and Configure Basic Device Settings
 
-In Part 1, you will set up the network topology and configure basic settings on the PC hosts and switches.
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab03/cs.png)
 
 ### Establish an addressing scheme
 
