@@ -4,7 +4,7 @@
 
 1. **Топология**
 
-![](RackMultipart20200723-4-f965gd_html_a62ec0c7a373c2e5.png)
+![](https://github.com/sefishin/otus_networks/labs/lab02/scheme.png)
 
 1. **Таблица адресации**
 
