@@ -6,45 +6,19 @@
 
 # Addressing Table
 
-|
-
-Device
-
- |
-
-Interface
-
- |
-
-IP Address
-
- |
-
-Subnet Mask
-
- |
-
-Default Gateway
-
- |
-| --- | --- | --- | --- | --- |
-| R1 | G0/0/0 | 10.0.0.1 | 255.255.255.252 | N/A |
-| --- | --- | --- | --- | --- |
-| R1 | G0/0/1 | N/A | N/A | N/A |
-| R1 | G0/0/1.100 | blank | blank | N/A |
-| R1 | G0/0/1.200 | blank | blank | N/A |
-| R1 | G0/0/1.1000 | N/A | N/A | N/A |
-| R2 | G0/0/0 | 10.0.0.2 | 255.255.255.252 | N/A |
-| --- | --- | --- | --- | --- |
-| R2 | G0/0/1 | blank | blank | N/A |
-| S1 | VLAN 200 | blank | blank | blank |
-| --- | --- | --- | --- | --- |
-| S2 | VLAN 1 | blank | blank | blank |
-| --- | --- | --- | --- | --- |
-| PC-A | NIC | DHCP | DHCP | DHCP |
-| --- | --- | --- | --- | --- |
-| PC-B | NIC | DHCP | DHCP | DHCP |
-| --- | --- | --- | --- | --- |
+| Device |  Interface  | IP Address |   Subnet Mask   | Default Gateway |
+|:------:|:-----------:|:----------:|:---------------:|:---------------:|
+| R1     | G0/0/0      | 10.0.0.1   | 255.255.255.252 | N/A             |
+| R1     | G0/0/1      | N/A        | N/A             | N/A             |
+| R1     | G0/0/1.100  | blank      | blank           | N/A             |
+| R1     | G0/0/1.200  | blank      | blank           | N/A             |
+| R1     | G0/0/1.1000 | N/A        | N/A             | N/A             |
+| R2     | G0/0/0      | 10.0.0.2   | 255.255.255.252 | N/A             |
+| R2     | G0/0/1      | blank      | blank           | N/A             |
+| S1     | VLAN 200    | blank      | blank           | blank           |
+| S2     | VLAN 1      | blank      | blank           | blank           |
+| PC-A   | NIC         | DHCP       | DHCP            | DHCP            |
+| PC-B   | NIC         | DHCP       | DHCP            | DHCP            | 
 
 # VLAN Table
 
