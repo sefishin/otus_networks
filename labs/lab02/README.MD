@@ -214,3 +214,7 @@
 
 \_\_\_\__MAC-адрес\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
+ ###  Файлы конфигураций:
+ - [S1_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/S1)
+ - [S2_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/S2)
+ - [S3_config](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/S3)
