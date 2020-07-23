@@ -47,7 +47,8 @@
   3. Включите порты F0/2 и F0/4 на всех коммутаторах.
   4. Отобразите данные протокола spanning-tree.
 
-'''S1#show spanning-tree 
+'''html
+S1#show spanning-tree 
 VLAN0001
   Spanning tree enabled protocol ieee
   Root ID    Priority    32769
