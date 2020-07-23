@@ -2,7 +2,7 @@
 
 # Topology
 
-![](https://github.com/sefishin/otus_networks/blob/master/labs/lab01/lab1.png)
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab03/SC.png)
 
 # Addressing Table
 
