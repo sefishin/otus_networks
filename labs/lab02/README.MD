@@ -4,7 +4,7 @@
 
 1. **Топология**
 
-![](https://github.com/sefishin/otus_networks/labs/lab02/scheme.png)
+![](https://github.com/sefishin/otus_networks/blob/master/labs/lab02/scheme.png)
 
 1. **Таблица адресации**
 
