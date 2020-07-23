@@ -38,35 +38,13 @@
 
 **Part 3: Configure and verify a DHCP Relay on R2**
 
-1.
-# Background / Scenario
 
-The Dynamic Host Configuration Protocol (DHCP) is a network protocol that lets network administrators manage and automate the assignment of IP addresses. Without DHCP for IPv4, the administrator must manually assign and configure IP addresses, preferred DNS servers, and default gateways. As the network grows in size, this becomes an administrative problem when devices are moved from one internal network to another.
-
-In this scenario, the company has grown in size, and the network administrators can no longer assign IP addresses to devices manually. Your job is to configure the R1 router to assign IPv4 addresses on two different subnets.
-
-**Note** : The routers used with CCNA hands-on labs are Cisco 4221 with Cisco IOS XE Release 16.9.4 (universalk9 image). The switches used in the labs are Cisco Catalyst 2960s with Cisco IOS Release 15.2(2) (lanbasek9 image). Other routers, switches, and Cisco IOS versions can be used. Depending on the model and Cisco IOS version, the commands available and the output produced might vary from what is shown in the labs. Refer to the Router Interface Summary Table at the end of the lab for the correct interface identifiers.
-
-**Note** : Ensure that the routers and switches have been erased and have no startup configurations. If you are unsure contact your instructor.
-
-1.
-# Required Resources
-
-- 2 Routers (Cisco 4221 with Cisco IOS XE Release 16.9.4 universal image or comparable)
-- 2 Switches (Cisco 2960 with Cisco IOS Release 15.2(2) lanbasek9 image or comparable)
-- 2 PCs (Windows with a terminal emulation program, such as Tera Term)
-- Console cables to configure the Cisco IOS devices via the console ports
-- Ethernet cables as shown in the topology
-
-1.
 # Instructions
 
-  1.
-## Build the Network and Configure Basic Device Settings
+## 1.Build the Network and Configure Basic Device Settings
 
 In Part 1, you will set up the network topology and configure basic settings on the PC hosts and switches.
 
-    1.
 ### Establish an addressing scheme
 
 Subnet the network 192.168.1.0/24 to meet the following requirements:
